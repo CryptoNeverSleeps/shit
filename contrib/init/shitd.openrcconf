@@ -1,0 +1,26 @@
+# /etc/conf.d/shitd: config file for /etc/init.d/shitd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/shit/shit.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/shitd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/shitd.pid"
+
+# Where to write shitd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/shitd"
+
+# User and group to own shitd process
+#BITCOIND_USER="shit"
+#BITCOIND_GROUP="shit"
+
+# Path to shitd executable
+#BITCOIND_BIN="/usr/bin/shitd"
+
+# Nice value to run shitd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

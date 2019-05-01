@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Shit
+Comment=Shit P2P Cryptocurrency
+Comment[fr]=Shit, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Shit, eşten eşe kriptografik sanal para birimi
+Exec=shit-qt %u
+Terminal=false
+Type=Application
+Icon=shit128
+MimeType=x-scheme-handler/shit;
+Categories=Office;Finance;

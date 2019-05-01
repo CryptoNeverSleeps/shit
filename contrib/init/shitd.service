@@ -1,0 +1,26 @@
+[Unit]
+Description=Shit's distributed currency daemon
+After=network.target
+
+[Service]
+User=shit
+Group=shit
+
+Type=forking
+PIDFile=/var/lib/shitd/shitd.pid
+
+ExecStart=/usr/bin/shitd -daemon -pid=/var/lib/shitd/shitd.pid \
+          -conf=/etc/shit/shit.conf -datadir=/var/lib/shitd
+
+ExecStop=-/usr/bin/shit-cli -conf=/etc/shit/shit.conf \
+         -datadir=/var/lib/shitd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
