@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_shit.o: qt/qrc_shit.cpp

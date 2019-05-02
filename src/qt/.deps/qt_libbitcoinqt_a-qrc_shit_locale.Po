@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_shit_locale.o: qt/qrc_shit_locale.cpp
