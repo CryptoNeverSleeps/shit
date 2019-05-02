@@ -4,7 +4,7 @@
 
 Shit Core version 1.2.1 is now available from:
 
-  https://shitcoind.com/
+  https://shit.io/
 
 Please report bugs using the issue tracker at github:
 

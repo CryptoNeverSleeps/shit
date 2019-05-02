@@ -1,8 +1,8 @@
 Source: shit
 Section: utils
 Priority: optional
-Maintainer: Julian Meyer <julian@shitcoind.com>
-Uploaders: Julian Meyer <julian@shitcoind.com>
+Maintainer: Julian Meyer <julian@shit.io>
+Uploaders: Julian Meyer <julian@shit.io>
 Build-Depends: debhelper,
  devscripts,
  automake,
