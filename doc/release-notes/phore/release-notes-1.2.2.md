@@ -5,7 +5,7 @@
 
 Shit Core version 1.2.2 is now available from:
 
-  https://shit.io/
+  https://shitcoind.com/
 
 Please report bugs using the issue tracker at github:
 
@@ -24,7 +24,7 @@ shitd/shit-qt (on Linux).
 1.2.2 changelog
 ----------------
 
-- Updated chain parameters in response to [this governance proposal](https://forum.shit.io/t/block-reward-extension/81).
+- Updated chain parameters in response to [this governance proposal](https://forum.shitcoind.com/t/block-reward-extension/81).
   - Updated development rewards to a constant 1 SHIT per block.
   - Updated block reward schedule
 - Fixed bug with mempoolnotify important for marketplace launch
