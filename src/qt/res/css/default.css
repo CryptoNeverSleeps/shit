@@ -10,7 +10,7 @@ QStatusBar {
     color: #b39700;
     border:none;
 }
-QStatusBar::item { 
+QStatusBar::item {
 	border: 0px;
 	outline:none;
 }
@@ -172,8 +172,8 @@ QTabBar::tab:pressed {
 QWidget {
     selection-background-color: #b39700;
     selection-color: #0f111c;
-	outline: 0; 
-	border:none; 
+	outline: 0;
+	border:none;
 }
 QGroupBox {
     background-color: transparent;
@@ -204,7 +204,7 @@ QLabel {
 }
 QLabel#labelOverviewHeaderLeft {
 	font-weight: 600;
-	qproperty-minimumSize:464px 30px; 
+	qproperty-minimumSize:464px 30px;
 }
 .QRadioButton {
 	color: #fff;
@@ -229,8 +229,8 @@ BitcoinAmountField#payAmount {
 	color: #FFFFFF;
 	padding: 0.8em 0.85em 0.8em;
 	border-radius: 8px;
-	
-} 
+
+}
 QLineEdit:focus, BitcoinAmountField:focus {
 	outline: 0;
 	background-color: #000000;
@@ -302,7 +302,7 @@ QComboBox {
 	padding: 0 0.85em 0;
 	border-radius: 10px;
 	height: 40px;
-} 
+}
 QComboBox:checked {
 	background-color: #000000;
 	border:2px solid #fff;
@@ -456,15 +456,15 @@ QTableView::item,
 	padding-right: 12px;
 	qproperty-alignment: 'AlignLeft';
     text-align: left;
-    
+
 }
 QTableView::item:selected,
 #transactionView::item:selected,
 #tableWidgetAllMasternodes::item:selected,
-#tableWidgetMyMasternodes::item:selected { 
+#tableWidgetMyMasternodes::item:selected {
 	background: #b39700;
     color: #fff;
-   
+
 }
 QTableWidget {
 	/* Table Background */
@@ -494,7 +494,7 @@ QScrollBar:vertical {
 	background: transparent;
 	width: 12px;
     margin: 0;
-    
+
 }
 QScrollBar:horizontal {
 	/* Horizontal Scroll Bar Attributes */
@@ -503,7 +503,7 @@ QScrollBar:horizontal {
 	height: 12px;
     /* margin: 0px 18px 0px 18px; */
     margin:0;
-    
+
 }
 QScrollBar::handle:vertical {
 	background: #333b46;
@@ -571,13 +571,13 @@ QScrollBar:right-arrow {
 QScrollBar:up-arrow {
 	background: none;
 }
-QScrollBar:down-arrow { 
+QScrollBar:down-arrow {
     background: none;
 }
-QScrollBar:left-arrow { 
+QScrollBar:left-arrow {
     background: none;
 }
-QScrollBar:right-arrow { 
+QScrollBar:right-arrow {
     background: none;
 }
 QSlider::handle:horizontal {
@@ -610,17 +610,17 @@ QScrollBar::sub-page:vertical {
 }
 /**************************** DIALOG BOXES **********************************************/
 
-QDialog { 
+QDialog {
 	background-color: #000000;
 }
 QDialog .QTabWidget {
 	border-bottom: 1px solid #0f111c;
 }
-QDialog .QTabWidget::pane { 
+QDialog .QTabWidget::pane {
     border:0;
 }
 QDialog .QTabWidget QTabBar::tab,
-#MasternodeList QTabBar::tab { 
+#MasternodeList QTabBar::tab {
     color:#fff;
     font-size:14px;
     background-color:transparent;
@@ -628,8 +628,8 @@ QDialog .QTabWidget QTabBar::tab,
 	padding-right: 4px;
 	padding-top: 5px;
     padding-bottom: 5px;
-    min-width: 100px; 
-} 
+    min-width: 100px;
+}
 QDialog .QTabWidget QTabBar::tab:selected,
 QDialog .QTabWidget QTabBar::tab:hover,
 #MasternodeList QTabBar::tab:selected,
@@ -675,7 +675,7 @@ QDialog#OpenURIDialog QPushButton#selectFileButton:hover {
 	background-color: #fff;
 	color: #b39700;
 }
-QDialog#OpenURIDialog QPushButton#selectFileButton:pressed { 
+QDialog#OpenURIDialog QPushButton#selectFileButton:pressed {
 	background-color: #b39700;
 	color: #fff;
 }
@@ -713,7 +713,7 @@ QDialog#SignVerifyMessageDialog QPushButton#clearButton_SM, QDialog#SignVerifyMe
 	/* Clear Button */
 	background-color: none;
 	border:none;
-	color: #fff; 
+	color: #fff;
 }
 QDialog#SignVerifyMessageDialog QPushButton#clearButton_SM:hover {
 	background-color: #fff;
@@ -729,7 +729,7 @@ QDialog#SignVerifyMessageDialog QPushButton#addressBookButton_VM {
 	border: 0;
 	padding-left: 10px;
 	padding-right: 10px;
-} 
+}
 QDialog#SignVerifyMessageDialog QPushButton#clearButton_VM:pressed {
 	border: 1px solid #9e9e9e;
 }
@@ -748,7 +748,7 @@ padding-right:10px; */
 }
 QWidget#AddressBookPage QPushButton#newAddress:hover {
 	/* background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f6f6f6, stop: .1 rgba(240, 240, 240, 255), stop: .95 rgba(240, 240, 240, 255), stop: 1 #ebebeb);
-color:#333; */
+color:#fff; */
 }
 QWidget#AddressBookPage QPushButton#newAddress:pressed {
 	/* border:1px solid #9e9e9e; */
@@ -1278,9 +1278,9 @@ QWidget .QFrame#frame_3 .QLabel#labelTotalz {
 	margin-left: 0px;
 }
 
-/**************************************************************/ 
+/**************************************************************/
 /**************************** ROI Section*********************/
-/************************************************************/ 
+/************************************************************/
 
 QWidget .QFrame#frame .QLabel#label_6 { /*MN Header Section Label*/
     qproperty-alignment: 'AlignVCenter | AlignLeft';
@@ -1778,7 +1778,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item {
 	color:white;
 	padding-left:0;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-} 
+}
 
 QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected {
 	/* Coin Control Item (selected) */
@@ -1940,7 +1940,7 @@ background-color:#fff;
 QWidget#PrivacyDialog .QFrame[frameShape="4"] {
 	/* QFrame::HLine == 0x0004 */
     border: 1px solid rgba(255, 255, 255, 0.05);
-    
+
 }
 QWidget#PrivacyDialog .QFrame#frame_Content {
 	background-color: transparent;
@@ -2114,12 +2114,12 @@ QGroupBox::title {
 
 #labelTotalz {
     font-weight:500;
-    
+
 }
 
 #labelBalance, #labelUnconfirmed, #labelImmature, #labelLockedBalance, #labelTotal, #labelzBalanceMature, #labelzBalance{
     font-size:22px;
-    
+
 }
 
 .negative-sum {
