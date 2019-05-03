@@ -1348,8 +1348,8 @@ configure:22307: x86_64-w64-mingw32-g++ -std=c++11 -o conftest.exe -pipe -O2  -I
 configure:22307: $? = 0
 configure:22324: result: none required
 configure:22374: checking whether C++ compiler accepts -Wstack-protector
-configure:22393: x86_64-w64-mingw32-g++ -std=c++11 -c -pipe -O2   -Wstack-protector -I/usr/src/shit/depends/x86_64-w64-mingw32/share/../include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64 conftest.cpp >&5
-configure:22393: $? = 0
+configure:77783: x86_64-w64-mingw32-g++ -std=c++11 -c -pipe -O2   -Wstack-protector -I/usr/src/shit/depends/x86_64-w64-mingw32/share/../include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64 conftest.cpp >&5
+configure:77783: $? = 0
 configure:22401: result: yes
 configure:22409: checking whether C++ compiler accepts -fstack-protector-all
 configure:22428: x86_64-w64-mingw32-g++ -std=c++11 -c -pipe -O2   -fstack-protector-all -I/usr/src/shit/depends/x86_64-w64-mingw32/share/../include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64 conftest.cpp >&5
