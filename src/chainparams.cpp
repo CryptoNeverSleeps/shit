@@ -133,7 +133,7 @@ public:
         nZerocoinStartHeight = INT_MAX;
         nMaturity = 15;
         nMasternodeCountDrift = 20;
-        nMasternodeCollateralAmt = 1000;
+        nMasternodeCollateralAmt = 5000;
         nMasternodeCollateralAmtNew = 5000;
         nMinStakeInput = 15 * COIN;
         nModifierUpdateBlock = 615800;
@@ -265,7 +265,7 @@ public:
         nLastPOWBlock = 200;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
-        nMasternodeCollateralAmt = 1000;
+        nMasternodeCollateralAmt = 5000;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 43199500 * COIN;
         nZerocoinStartHeight = 200;
