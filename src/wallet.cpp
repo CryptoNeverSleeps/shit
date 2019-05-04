@@ -2340,7 +2340,7 @@ bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount 
             // Function returns as follows:
             //
             // bit 0 - 10000 SHIT+1 ( bit on if present )
-            // bit 1 - 1000 SHIT+1
+            // bit 1 - 5000 SHIT+1
             // bit 2 - 100 SHIT+1
             // bit 3 - 10 SHIT+1
             // bit 4 - 1 SHIT+1
@@ -2705,9 +2705,9 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, CAmount> >& vecSend,
                     if (coin_type == ALL_COINS) {
                         strFailReason = _("Insufficient funds.");
                     } else if (coin_type == ONLY_NOT10000IFMN) {
-                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 1000 SHIT.");
+                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 5000 SHIT.");
                     } else if (coin_type == ONLY_NONDENOMINATED_NOT10000IFMN) {
-                        strFailReason = _("Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000 SHIT.");
+                        strFailReason = _("Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 5000 SHIT.");
                     } else {
                         strFailReason = _("Unable to locate enough Obfuscation denominated funds for this transaction.");
                         strFailReason += " " + _("Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.");

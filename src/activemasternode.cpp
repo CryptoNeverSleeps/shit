@@ -12,7 +12,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 1000 SHIT input and register on the network
+// Bootup the Masternode, look for a 5000 SHIT input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
