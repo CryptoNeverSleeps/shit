@@ -2803,9 +2803,9 @@ bool CheckTransaction(const CTransaction& tx, bool fZerocoinActive, bool fReject
             if (nHeight < 101) {
                 ret = blockValue * 0;
             } else if (nHeight <= 192021 && nHeight > 101) {
-                ret = blockValue * 0.8; //80% for nodes
+                ret = blockValue * 0.5; //50% for nodes
             } else if (nHeight > 192021) {
-                ret = blockValue * 0.9; //90% for nodes
+                ret = blockValue * 0.6; //60% for nodes
             }
 
             return ret;
