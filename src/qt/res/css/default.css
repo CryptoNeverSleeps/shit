@@ -303,13 +303,13 @@ outline:0;
 
 QHeaderView::section { /* Table Header Sections */
 qproperty-alignment:center;
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #333, stop: 1 #333);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #fff, stop: 1 #fff);
 color:#333;
 min-height:25px;
 font-weight:bold;
 font-size:12px;
 outline:0;
-border:0px solid #333;
+border:1px solid #333;
 border-right:1px solid #333;
 padding-left:5px;
 padding-right:5px;
