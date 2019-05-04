@@ -171,7 +171,7 @@ QTabBar::tab:pressed {
 }
 QWidget {
     selection-background-color: #b39700;
-    selection-color: #0f111c;
+    selection-color: #fff;
 	outline: 0;
 	border:none;
 }
@@ -614,7 +614,7 @@ QDialog {
 	background-color: #000000;
 }
 QDialog .QTabWidget {
-	border-bottom: 1px solid #0f111c;
+	border-bottom: 1px solid #fff;
 }
 QDialog .QTabWidget::pane {
     border:0;
