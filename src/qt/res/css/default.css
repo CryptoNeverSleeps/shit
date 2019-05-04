@@ -2,6 +2,9 @@
 /*************** [COLOR CODES] DARK BLUE:#000000 LIGHT BLUE:#000000 *****************/
 /****************************************************************************************/
 
+* {
+    font-size: 12px;
+}
 
 WalletFrame {
 border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
