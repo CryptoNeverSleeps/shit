@@ -166,7 +166,7 @@ background-color:#f2f2f2;
 /****************************************************************************************/
 
 QPushButton { /* Global Button Style */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #E49E1C, stop: .1 #E49E1C, stop: .95 #E49E1C, stop: 1 #E49E1C);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #ffffff, stop: .1 #ffffff, stop: .95 #ffffff, stop: 1 #ffffff);
 border:0;
 border-radius:3px;
 color:#ffffff;
