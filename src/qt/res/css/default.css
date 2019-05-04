@@ -3,7 +3,7 @@
 /****************************************************************************************/
 
 * {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 WalletFrame {
@@ -734,6 +734,11 @@ QDialog#RPCConsole QWidget#tab_info QLabel#label_11, QDialog#RPCConsole QWidget#
 qproperty-alignment: 'AlignBottom';
 min-height:25px;
 min-width:180px;
+}
+
+QWidget#ToolsPage QWidget#peerWidget{
+    border: 1px solid;
+    background-color: transparent;
 }
 
 QDialog#RPCConsole QWidget#tab_peers  QLabel#peerHeading { /* Peers Info Header */
