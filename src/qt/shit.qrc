@@ -75,6 +75,8 @@
         <file alias="upArrow_small_white">res/images/upArrow_small.png</file>
         <file alias="qtreeview_selected">res/images/qtreeview_selected.png</file>
         <file alias="splash">res/images/splash.png</file>
+		<file alias="walletFrame_bg">res/images/walletFrame_bg.png</file>
+        <file alias="walletFrame">res/images/walletFrame.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="spinner-000">res/movies/spinner-000.png</file>
