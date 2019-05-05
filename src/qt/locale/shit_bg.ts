@@ -1548,31 +1548,31 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 5000 SHIT</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 5000 SHIT</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 SHIT</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 1000 SHIT</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 5000 SHIT</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 5000 SHIT</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 SHIT</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 1000 SHIT</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 SHIT to anonymize 5000 SHIT</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 SHIT за да скриете 5000 SHIT</translation>
+        <source>This option is the quickest and will cost about ~0.025 SHIT to anonymize 1000 SHIT</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 SHIT за да скриете 1000 SHIT</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 SHIT to anonymize 5000 SHIT</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 SHIT за да скриете 5000 SHIT</translation>
+        <source>This option is moderately fast and will cost about 0.05 SHIT to anonymize 1000 SHIT</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 SHIT за да скриете 1000 SHIT</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Това е най-бавния и най-сигурен вариант за скриване на SHIT. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 SHIT per 5000 SHIT you anonymize.</source>
+        <source>0.1 SHIT per 1000 SHIT you anonymize.</source>
         <translation>0.1 SHIT за 1000 скрити SHIT</translation>
     </message>
     <message>

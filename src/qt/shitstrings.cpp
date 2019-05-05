@@ -188,7 +188,7 @@ QT_TRANSLATE_NOOP("shit-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("shit-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 5000 SHIT."),
+"transaction that are not equal 1000 SHIT."),
 QT_TRANSLATE_NOOP("shit-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
 "SHIT."),

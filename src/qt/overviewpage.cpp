@@ -463,7 +463,7 @@ void OverviewPage::updateMasternodeInfo()
     if (IsSporkActive(SPORK_26_NEW_COLLATERAL)) {
         ui->label_lcolat->setText("5000 SHIT"); 
 	}else{ 
-		ui->label_lcolat->setText("5000 SHIT");
+		ui->label_lcolat->setText("1000 SHIT");
 
     }
 }

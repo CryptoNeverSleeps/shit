@@ -18,7 +18,7 @@ const std::string CLIENT_NAME("Shit Core v.1.0");
 /**
  * Client version number
  */
-#define CLIENT_VERSION_SUFFIX "CryptoNeverSleeps"
+#define CLIENT_VERSION_SUFFIX "v2.0.1"
 
 
 /**
