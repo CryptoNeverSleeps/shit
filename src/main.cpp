@@ -6606,7 +6606,7 @@ bool CheckTransaction(const CTransaction& tx, bool fZerocoinActive, bool fReject
                 }
                 // broken releases with wrong blockchain data
                 if (pfrom->cleanSubVer == "/Shit Core:0.0.0.1/" ||
-                    pfrom->cleanSubVer == "/Shit Core:1.0.0.0/") { // Archived pivx 2.3 source
+                    pfrom->cleanSubVer == "/Shit Core:0.0.0.2/") { // Archived pivx 2.3 source
                     LOCK(cs_main);
                     Misbehaving(pfrom->GetId(), 100); // instantly ban them because they have bad block data
                     return false;
