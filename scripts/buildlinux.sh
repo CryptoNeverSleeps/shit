@@ -16,3 +16,10 @@ sudo apt-get install libgmp3-dev libevent-dev bsdmainutils libboost-all-dev open
 ./autogen.sh
 ./configure
 make
+
+cd src
+strip shitd
+strip shit-cli
+strip shit-tx
+cd qt
+strip shit-qt

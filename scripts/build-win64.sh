@@ -8,5 +8,8 @@ cd ..
 CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/
 make
 cd src
+strip shitd.exe
+strip shit-cli.exe
+strip shit-tx.exe
 cd qt
 strip shit-qt.exe
