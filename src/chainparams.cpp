@@ -192,7 +192,7 @@ public:
 		nRejectOldSporkKey = 1557043199;  //!> Fully reject old spork key after 04/20/2019 @ 12:00am (UTC)
 
         //strSporkKey = "040b9f00054d0cabfbd76f8af25262185cfb94522be60ea95c15a6022cdbc8b0736be8735cf2624565e289ba056d17b42fdcec1fede03f2454d40e9629b26959e1";
-		strSporkKey = "00bcb7971ec66be5a405c294a92f7bbcbf3e001456870c72adbb1af3d78f03929c";
+		strSporkKey = "04e90e50700d53a41ff96ae0de10d55c3c5d15778e0de4155d782568e30d8816a84b3937407fa3845b31b8b8c30d6f69f01a0610af2d49c8828198718fdb1a2d4b";
 		strSporkKeyOld = "040b9f00054d0cabfbd76f8af25262185cfb94522be60ea95c15a6022cdbc8b0736be8735cf2624565e289ba056d17b42fdcec1fede03f2454d40e9629b26959e1";
 		strObfuscationPoolDummyAddress = "Ab5bNTKMKVJWLTDCwwEEvHH9MzDhxRaL5a";
         nStartMasternodePayments = 1557043200;
