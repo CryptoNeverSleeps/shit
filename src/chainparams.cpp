@@ -55,10 +55,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x3d8c4ccd4184c823f008d991b8084ccc05cc9e4c184fd6e3203fbf6a9f6bce9a"));
+	(0, uint256("0x00000e6d29397df70f82432ba812ddc9dcc44af9e051752a7c2287421b6102dc"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1557057600, // * UNIX timestamp of last checkpoint block
+    1557043200, // * UNIX timestamp of last checkpoint block
     443823,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     200         // * estimated number of transactions per day after checkpoint
@@ -68,7 +68,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1557057601,
+    1557043201,
     0,
     250};
 
@@ -76,7 +76,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1557057602,
+    1557043202,
     0,
     100};
 
@@ -150,15 +150,15 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1557057600;
+        genesis.nTime = 1557043200;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 308011;
+        genesis.nNonce = 306111;
 
         hashGenesisBlock = genesis.GetHash();
 		//printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 		//printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x3d8c4ccd4184c823f008d991b8084ccc05cc9e4c184fd6e3203fbf6a9f6bce9a"));
-        assert(genesis.hashMerkleRoot == uint256("0x88982c88700b5b89dd2899620766d3ed8ee03b5cc4a0ad8a1e50304026912d16"));
+        assert(hashGenesisBlock == uint256("0x00000e6d29397df70f82432ba812ddc9dcc44af9e051752a7c2287421b6102dc"));
+        assert(genesis.hashMerkleRoot == uint256("0x751035f37dddf2018ae6e36bfc10bf57a5d4a5d30e426235164e7b441949350d"));
 
         vSeeds.push_back(CDNSSeedData("seed1.shitcoind.com", "seed1.shitcoind.com"));
         vSeeds.push_back(CDNSSeedData("seed2.shitcoind.com", "seed2.shitcoind.com"));
@@ -188,14 +188,14 @@ public:
 
         nPoolMaxTransactions = 3;
 
-		nEnforceNewSporkKey = 1557057600; //!> Sporks signed after 04/15/2019 @ 12:00am (UTC) must use the new spork key
-		nRejectOldSporkKey = 1557057599;  //!> Fully reject old spork key after 04/20/2019 @ 12:00am (UTC)
+		nEnforceNewSporkKey = 1557043200; //!> Sporks signed after 04/15/2019 @ 12:00am (UTC) must use the new spork key
+		nRejectOldSporkKey = 1557043199;  //!> Fully reject old spork key after 04/20/2019 @ 12:00am (UTC)
 
         //strSporkKey = "040b9f00054d0cabfbd76f8af25262185cfb94522be60ea95c15a6022cdbc8b0736be8735cf2624565e289ba056d17b42fdcec1fede03f2454d40e9629b26959e1";
 		strSporkKey = "00bcb7971ec66be5a405c294a92f7bbcbf3e001456870c72adbb1af3d78f03929c";
 		strSporkKeyOld = "040b9f00054d0cabfbd76f8af25262185cfb94522be60ea95c15a6022cdbc8b0736be8735cf2624565e289ba056d17b42fdcec1fede03f2454d40e9629b26959e1";
 		strObfuscationPoolDummyAddress = "Ab5bNTKMKVJWLTDCwwEEvHH9MzDhxRaL5a";
-        nStartMasternodePayments = 1557057600;
+        nStartMasternodePayments = 1557043200;
 
         /** Zerocoin */
         
