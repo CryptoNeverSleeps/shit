@@ -58,7 +58,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(0, uint256("0x3d8c4ccd4184c823f008d991b8084ccc05cc9e4c184fd6e3203fbf6a9f6bce9a"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1556761678, // * UNIX timestamp of last checkpoint block
+    1557057600, // * UNIX timestamp of last checkpoint block
     443823,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     200         // * estimated number of transactions per day after checkpoint
@@ -68,7 +68,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1557648001,
+    1557057601,
     0,
     250};
 
@@ -76,7 +76,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1557648002,
+    1557057602,
     0,
     100};
 
@@ -150,7 +150,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1556761678;
+        genesis.nTime = 1557057600;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 308011;
 
@@ -188,14 +188,14 @@ public:
 
         nPoolMaxTransactions = 3;
 
-		nEnforceNewSporkKey = 1556761678; //!> Sporks signed after 04/15/2019 @ 12:00am (UTC) must use the new spork key
-		nRejectOldSporkKey = 1556761677;  //!> Fully reject old spork key after 04/20/2019 @ 12:00am (UTC)
+		nEnforceNewSporkKey = 1557057600; //!> Sporks signed after 04/15/2019 @ 12:00am (UTC) must use the new spork key
+		nRejectOldSporkKey = 1557057599;  //!> Fully reject old spork key after 04/20/2019 @ 12:00am (UTC)
 
         //strSporkKey = "040b9f00054d0cabfbd76f8af25262185cfb94522be60ea95c15a6022cdbc8b0736be8735cf2624565e289ba056d17b42fdcec1fede03f2454d40e9629b26959e1";
 		strSporkKey = "00bcb7971ec66be5a405c294a92f7bbcbf3e001456870c72adbb1af3d78f03929c";
 		strSporkKeyOld = "040b9f00054d0cabfbd76f8af25262185cfb94522be60ea95c15a6022cdbc8b0736be8735cf2624565e289ba056d17b42fdcec1fede03f2454d40e9629b26959e1";
 		strObfuscationPoolDummyAddress = "Ab5bNTKMKVJWLTDCwwEEvHH9MzDhxRaL5a";
-        nStartMasternodePayments = 1557648000;
+        nStartMasternodePayments = 1557057600;
 
         /** Zerocoin */
         
@@ -273,7 +273,7 @@ public:
         nZerocoinLastOldParams = 250000;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1557648001;
+        genesis.nTime = 1557057601;
         genesis.nNonce = 187565;
 
         hashGenesisBlock = genesis.GetHash();
@@ -337,7 +337,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Shit: 1 day
         nTargetSpacing = 1 * 60;        // Shit: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1557648002;
+        genesis.nTime = 1557057602;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 1285341;
         nMaturity = 0;
