@@ -13,12 +13,12 @@
  * for both shitd and shit-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Shit Core v.1.0");
+const std::string CLIENT_NAME("Shit Core");
 
 /**
  * Client version number
  */
-#define CLIENT_VERSION_SUFFIX "CryptoNeverSleeps"
+#define CLIENT_VERSION_SUFFIX "v1.0"
 
 
 /**
