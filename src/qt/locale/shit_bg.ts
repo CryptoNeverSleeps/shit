@@ -2296,12 +2296,12 @@ https://www.transifex.com/shit-project/shit-project-translations</translation>
         <translation>Деном. със стойност от 1000:</translation>
     </message>
     <message>
-        <source>Denominations with value 5000:</source>
-        <translation>Деноминации от 5000:</translation>
+        <source>Denominations with value 1000:</source>
+        <translation>Деноминации от 1000:</translation>
     </message>
     <message>
-        <source>Denom. with value 5000:</source>
-        <translation>Деном. със стойност от 5000:</translation>
+        <source>Denom. with value 1000:</source>
+        <translation>Деном. със стойност от 1000:</translation>
     </message>
     <message>
         <source>Note: This hidden objects are used for communication between the 'Coin Control' dialog and its parent objects. We don't want to change/reimplement the existing Coin Control, so this objects must be here, even when we don't use them. No, we don't like this approach, either.</source>
@@ -4480,8 +4480,8 @@ Please be patient...</source>
         <translation>Грешен личен ключ.</translation>
     </message>
     <message>
-        <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
-        <translation>Предпочитани деноминации за автоматично изсечените Zerocoin (1/5/10/50/100/500/1000/5000), 0 за каквито и да е. (По подразбиране: %u)</translation>
+        <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/1000), 0 for no preference. default: %u)</source>
+        <translation>Предпочитани деноминации за автоматично изсечените Zerocoin (1/5/10/50/100/500/1000/1000), 0 за каквито и да е. (По подразбиране: %u)</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
