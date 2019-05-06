@@ -59,7 +59,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1557043200, // * UNIX timestamp of last checkpoint block
-    443823,     // * total number of transactions between genesis and last checkpoint
+    0,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     200         // * estimated number of transactions per day after checkpoint
 };
@@ -161,10 +161,21 @@ public:
         assert(hashGenesisBlock == uint256("0x1061b27258b28a957bbc951677ca40ac30af57e9323a7b6355d2c39f4503cc86"));
         assert(genesis.hashMerkleRoot == uint256("0x88982c88700b5b89dd2899620766d3ed8ee03b5cc4a0ad8a1e50304026912d16"));
 
-        vSeeds.push_back(CDNSSeedData("155.138.211.131", "155.138.211.131"));
-        vSeeds.push_back(CDNSSeedData("45.55.51.14", "45.55.51.14"));
-        vSeeds.push_back(CDNSSeedData("134.209.42.21", "134.209.42.21"));
-        vSeeds.push_back(CDNSSeedData("134.209.46.145", "134.209.46.145"));
+        vSeeds.push_back(CDNSSeedData("seed1.shitcoind.com", "seed1.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed2.shitcoind.com", "seed2.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed3.shitcoind.com", "seed3.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed4.shitcoind.com", "seed4.shitcoind.com"));
+		vSeeds.push_back(CDNSSeedData("seed5.shitcoind.com", "seed5.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed6.shitcoind.com", "seed6.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed7.shitcoind.com", "seed7.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed8.shitcoind.com", "seed8.shitcoind.com"));
+		vSeeds.push_back(CDNSSeedData("seed9.shitcoind.com", "seed9.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed10.shitcoind.com", "seed10.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed11.shitcoind.com", "seed11.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed12.shitcoind.com", "seed12.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed13.shitcoind.com", "seed13.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed14.shitcoind.com", "seed14.shitcoind.com"));
+        vSeeds.push_back(CDNSSeedData("seed15.shitcoind.com", "seed15.shitcoind.com"));
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63); // S
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 40); // H
